@@ -1,0 +1,172 @@
+*{
+    margin: 0%;
+    padding: 0%; 
+}
+.fnav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+   padding: 6px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(207, 207, 207);
+}
+.fnav .left{
+    display:flex;
+    margin-top: 10px;
+}
+.left img{
+    width: 22%;
+}
+.left img:hover{
+    transform: scale(1.07);
+    cursor: pointer;
+}
+.left input{
+    margin-inline: 11px;
+    width: 420px;
+    height: 33px;
+    border: none;
+    outline: none;
+    text-align: center;
+    margin: 16px;
+    border-radius: 2px;
+    margin-left: 250px;
+}
+.left input:hover{
+    transform: scale(1.07);
+    cursor: pointer;
+}
+.fnav .right{
+    display: flex;
+    margin-top: 16px;
+}
+.right p {
+    margin-inline: 22px;
+    font-size: 22px;
+}
+.right p:hover{
+    transform: scale(1.07);
+    cursor: pointer;
+}
+.right button{
+    margin-inline: 22px;
+    width: 100px;
+    height: 27px;
+    border:none;
+    border-radius: 2px;
+    background-color: red;
+    color: white;
+}
+.right button:hover{
+    transform: scale(1.07);
+    cursor: pointer;
+}
+.right i {
+    margin-inline: 22px;
+    font-size: 25px;
+}
+.right i:hover{
+    transform: scale(1.07);
+    cursor: pointer;
+}
+.sec-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 12px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.sec-nav .s-left{
+    display: flex;
+}
+.sec-nav .s-right{
+    display: flex;
+}
+.sec-nav p:hover{
+    transform: scale(1.07);
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+.s-left p{
+    margin-inline-start: 15px;
+}
+.s-right p{
+    margin-inline-start: 15px;
+}
+.main img{
+    width: 100%;
+}
+.main img:hover{
+    cursor: pointer;
+}
+.container h2{
+    text-align: center;
+    padding: 22px;
+}
+.container .card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.card img{
+    width: 18%;
+    margin-block: 18px;
+    border-radius: 5;
+}
+.banner img{
+    width: 100%;
+    margin-top: 44px;
+}
+.banner img {
+    cursor: pointer;
+}
+.premiere {
+    background-color: rgb(8, 8, 19);
+    color: white;
+    padding: 33px;
+    margin-top: 22px;
+}
+.premiere  h1{
+     margin-right: 50px;
+     color: ghostwhite;
+}
+.container h2{
+    margin-right: 1100px;
+}
+.fa-video{
+    font-size: 50px;
+    margin-right: 1000px;
+}
+ .footer{
+    background-color:  rgb(207, 207, 207);
+    padding: 33px;
+    margin-top: 44px;
+ }
+.footer img{
+    width: 22%;
+    margin-left: 39%;
+    border-top: 2px solid gray;
+}
+.footer img:hover{
+    transform: scale(1.07); 
+    cursor: pointer;
+}
+.footer .icon{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.icon i{
+    margin-inline: 22px;
+    font-size: 36px;
+}
+.icon i:hover{
+    transform: scale(1.50); 
+    cursor: pointer;
+
+}
+.card img:hover{
+    transform: scale(1.05); 
+    cursor: pointer; 
+}
